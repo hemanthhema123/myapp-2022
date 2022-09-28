@@ -8,7 +8,7 @@ pipeline{
         }
         stage(" Dev Tomcat Deploy"){
             steps{
-                tomcatDeploy("172.31.1.213","ec2-user","tomcat-dev")
+                echo "hemanth"
             }
         }
     }
